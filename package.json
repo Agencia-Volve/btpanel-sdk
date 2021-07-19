@@ -45,7 +45,6 @@
     "ts-md5": "^1.2.9",
     "tslib": "~2.3.0"
   },
-  "main": "build/main.js",
   "author": "Giovanni Soares <giovanni_soares@aol.com> (gio.vanni.app)",
   "private": false,
   "repository": {
