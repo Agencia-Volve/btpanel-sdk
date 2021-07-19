@@ -1,6 +1,6 @@
 {
   "name": "btpanel-sdk",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "BtPanel SDK writing in Node.js",
   "engines": {
     "node": ">= 14.16 <15"
@@ -34,8 +34,7 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch"
   },
-  "author": "Jakub Synowiec <github@jakubsynowiec.info>",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "dependencies": {
     "@types/axios": "^0.14.0",
     "@types/luxon": "^1.27.1",
