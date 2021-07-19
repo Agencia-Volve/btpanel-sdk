@@ -2,8 +2,8 @@ import getKeyData from '../utils/getKey';
 import httpRequest from '../utils/request';
 import { Login } from '../utils/login';
 
-const getSystemTotal = async () => {
-  const url = `${Login.URL}/system?action=GetSystemTotal`;
+const getNetWork = async () => {
+  const url = `${Login.URL}/system?action=GetNetWork`;
 
   const data = await getKeyData();
 
@@ -12,4 +12,4 @@ const getSystemTotal = async () => {
   return result;
 };
 
-export { getSystemTotal };
+export { getNetWork };
