@@ -1,10 +1,10 @@
 import getKeyData from '../utils/getKey';
 import httpRequest from '../utils/request';
 import { Login } from '../utils/login';
-import { systemTotalType } from '../types';
+import { netWork } from '../types';
 
-const getSystemTotal = async (): Promise<systemTotalType> => {
-  const url = `${Login.URL}/system?action=GetSystemTotal`;
+const getNetWork = async (): Promise<netWork> => {
+  const url = `${Login.URL}/system?action=GetNetWork`;
 
   const data = await getKeyData();
 
@@ -13,4 +13,4 @@ const getSystemTotal = async (): Promise<systemTotalType> => {
   return result;
 };
 
-export { getSystemTotal };
+export { getNetWork };

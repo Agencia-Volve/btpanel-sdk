@@ -9,9 +9,6 @@ node_modules/
 # Coverage
 coverage
 
-# Transpiled files
-build/
-
 # VS Code
 .vscode
 !.vscode/tasks.js
@@ -27,3 +24,6 @@ build/
 
 # Misc
 .DS_Store
+
+# Test
+test/index.ts

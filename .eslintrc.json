@@ -20,6 +20,7 @@
       "import/no-unresolved": "off",
       "camelcase": "off",
       "import/first": "off",
-      "import/prefer-default-export": "off"
+      "import/prefer-default-export": "off",
+      "dot-notation": "off"
     }
 }
