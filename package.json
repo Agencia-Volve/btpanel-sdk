@@ -1,6 +1,6 @@
 {
   "name": "btpanel-node-sdk",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "BtPanel SDK writing in Node.js",
   "homepage": "https://github.com/Agencia-Volve/btpanel-sdk",
   "engines": {
