@@ -39,7 +39,6 @@
     "@types/axios": "^0.14.0",
     "@types/luxon": "^1.27.1",
     "axios": "^0.21.1",
-    "dotenv": "^10.0.0",
     "luxon": "^2.0.1",
     "qs-stringify": "^1.2.1",
     "ts-md5": "^1.2.9",

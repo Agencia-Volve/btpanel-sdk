@@ -4,9 +4,18 @@
 
 SDK for access all api endpoints in panel.
 
+How use 
+
+```bash
+yarn add btpanel-node-sdk
+
+# Or
+
+npm install btpanel-node-sdk
+```
+
 ```javascript
 import { getDiskInfo, Login } from 'btpanel-node-sdk';
-
 
 // Under construction. Totally temporary
 Login.secret_key = 'secret';
@@ -18,5 +27,7 @@ getListOfWebsites().then((resp) => console.log(resp.data[0].name));
 // Return: example.com
 
 ```
+
+Documentation coming soon.
 
 ⚠ Under construction.
