@@ -1,4 +1,4 @@
-import axios, { AxiosRequestConfig } from 'axios';
+import axios, { AxiosRequestConfig, AxiosResponse } from 'axios';
 
 const stringify = require('qs-stringify');
 
@@ -14,10 +14,9 @@ const httpRequest = async (url: string, data) => {
     data: dataPost,
   };
 
-  const response = await axios(config);
-  const json = await response.data;
+  const response: AxiosResponse = await axios(config);
 
-  return json;
+  return response.data;
 };
 
 export default httpRequest;

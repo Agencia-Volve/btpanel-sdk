@@ -1,8 +1,9 @@
 import getKeyData from '../utils/getKey';
 import httpRequest from '../utils/request';
 import { Login } from '../utils/login';
+import { listOfWebsitesType, websiteClassificationType, listPHPType } from '../types';
 
-const getListOfWebsites = async () => {
+const getListOfWebsites = async (): Promise<listOfWebsitesType> => {
   const url = `${Login.URL}/data?action=getData&table=sites`;
 
   const data = await getKeyData();
@@ -12,7 +13,7 @@ const getListOfWebsites = async () => {
   return result;
 };
 
-const getWebsiteClassification = async () => {
+const getWebsiteClassification = async (): Promise<websiteClassificationType[]> => {
   const url = `${Login.URL}/site?action=get_site_types`;
 
   const data = await getKeyData();
@@ -22,7 +23,7 @@ const getWebsiteClassification = async () => {
   return result;
 };
 
-const getListPHP = async () => {
+const getListPHP = async (): Promise<listPHPType[]> => {
   const url = `${Login.URL}/site?action=GetPHPVersion`;
 
   const data = await getKeyData();
