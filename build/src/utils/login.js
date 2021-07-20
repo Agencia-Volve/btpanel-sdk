@@ -6,4 +6,3 @@ const Login = {
     URL: '',
 };
 exports.Login = Login;
-//# sourceMappingURL=login.js.map

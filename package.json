@@ -1,5 +1,5 @@
 {
-  "name": "btpanel-sdk",
+  "name": "btpanel-node-sdk",
   "version": "1.0.0",
   "description": "BtPanel SDK writing in Node.js",
   "homepage": "https://github.com/Agencia-Volve/btpanel-sdk",
@@ -46,6 +46,10 @@
     "tslib": "~2.3.0"
   },
   "main": "build/src/main.js",
+  "types": "build/src/main.d.ts",
+  "files": [
+    "/build"
+  ],
   "author": "Giovanni Soares <giovanni_soares@aol.com> (gio.vanni.app)",
   "private": false,
   "repository": {
