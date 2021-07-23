@@ -21,6 +21,8 @@
       "camelcase": "off",
       "import/first": "off",
       "import/prefer-default-export": "off",
-      "dot-notation": "off"
+      "dot-notation": "off",
+      "max-len": "off",
+      "quote-props": "off"
     }
 }

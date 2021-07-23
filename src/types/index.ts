@@ -173,3 +173,45 @@ export interface updatePanel {
   version: string,
   updateMsg: string
 }
+
+export interface addWebsiteType {
+  siteStatus: boolean,
+  siteId: number,
+  ftpStatus: boolean,
+  databaseStatus: boolean,
+  databaseUser: string,
+  databasePass: string,
+  ssl: boolean,
+  redirect: boolean
+}
+
+export interface deleteWebsiteType {
+  status: boolean,
+  msg: string,
+}
+
+export interface stopWebsiteType {
+  status: boolean,
+  msg: string,
+}
+
+export interface startWebsiteType {
+  status: boolean,
+  msg: string,
+}
+
+export interface webSiteNotesTypes {
+  status: boolean,
+  msg: string,
+}
+
+export interface listWebsiteBackups {
+  data: [],
+  where: string,
+  page: string
+}
+
+export interface deleteWebsiteBackupType {
+  status: boolean,
+  msg: string,
+}
