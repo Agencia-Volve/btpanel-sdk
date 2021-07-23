@@ -167,3 +167,9 @@ export interface diskInfoType {
   size: [],
   inodes: []
 }
+
+export interface updatePanel {
+  status: boolean,
+  version: string,
+  updateMsg: string
+}
